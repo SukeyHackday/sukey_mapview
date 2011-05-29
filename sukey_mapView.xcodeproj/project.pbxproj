@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B3ED29E1392851D0031D254 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3ED29D1392851D0031D254 /* UIKit.framework */; };
+		2B3ED2A01392851D0031D254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3ED29F1392851D0031D254 /* Foundation.framework */; };
+		2B3ED2A21392851D0031D254 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3ED2A11392851D0031D254 /* CoreGraphics.framework */; };
+		2B3ED2A81392851D0031D254 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B3ED2A61392851D0031D254 /* InfoPlist.strings */; };
+		2B3ED2AB1392851D0031D254 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3ED2AA1392851D0031D254 /* main.m */; };
+		2B3ED2AE1392851D0031D254 /* sukey_mapViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3ED2AD1392851D0031D254 /* sukey_mapViewAppDelegate.m */; };
+		2B3ED2B11392851D0031D254 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B3ED2AF1392851D0031D254 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B3ED2991392851D0031D254 /* sukey_mapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sukey_mapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3ED29D1392851D0031D254 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B3ED29F1392851D0031D254 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B3ED2A11392851D0031D254 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B3ED2A51392851D0031D254 /* sukey_mapView-Info.plist */ = {isa = PBXFileReference; path = "sukey_mapView-Info.plist"; sourceTree = "<group>"; };
+		2B3ED2A71392851D0031D254 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B3ED2A91392851D0031D254 /* sukey_mapView-Prefix.pch */ = {isa = PBXFileReference; path = "sukey_mapView-Prefix.pch"; sourceTree = "<group>"; };
+		2B3ED2AA1392851D0031D254 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B3ED2AC1392851D0031D254 /* sukey_mapViewAppDelegate.h */ = {isa = PBXFileReference; path = sukey_mapViewAppDelegate.h; sourceTree = "<group>"; };
+		2B3ED2AD1392851D0031D254 /* sukey_mapViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sukey_mapViewAppDelegate.m; sourceTree = "<group>"; };
+		2B3ED2B01392851D0031D254 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B3ED2961392851D0031D254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3ED29E1392851D0031D254 /* UIKit.framework in Frameworks */,
+				2B3ED2A01392851D0031D254 /* Foundation.framework in Frameworks */,
+				2B3ED2A21392851D0031D254 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B3ED28E1392851C0031D254 = {
+			isa = PBXGroup;
+			children = (
+				2B3ED2A31392851D0031D254 /* sukey_mapView */,
+				2B3ED29C1392851D0031D254 /* Frameworks */,
+				2B3ED29A1392851D0031D254 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B3ED29A1392851D0031D254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B3ED2991392851D0031D254 /* sukey_mapView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B3ED29C1392851D0031D254 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B3ED29D1392851D0031D254 /* UIKit.framework */,
+				2B3ED29F1392851D0031D254 /* Foundation.framework */,
+				2B3ED2A11392851D0031D254 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B3ED2A31392851D0031D254 /* sukey_mapView */ = {
+			isa = PBXGroup;
+			children = (
+				2B3ED2AC1392851D0031D254 /* sukey_mapViewAppDelegate.h */,
+				2B3ED2AD1392851D0031D254 /* sukey_mapViewAppDelegate.m */,
+				2B3ED2AF1392851D0031D254 /* MainWindow.xib */,
+				2B3ED2A41392851D0031D254 /* Supporting Files */,
+			);
+			path = sukey_mapView;
+			sourceTree = "<group>";
+		};
+		2B3ED2A41392851D0031D254 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B3ED2A51392851D0031D254 /* sukey_mapView-Info.plist */,
+				2B3ED2A61392851D0031D254 /* InfoPlist.strings */,
+				2B3ED2A91392851D0031D254 /* sukey_mapView-Prefix.pch */,
+				2B3ED2AA1392851D0031D254 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B3ED2981392851D0031D254 /* sukey_mapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3ED2B41392851D0031D254 /* Build configuration list for PBXNativeTarget "sukey_mapView" */;
+			buildPhases = (
+				2B3ED2951392851D0031D254 /* Sources */,
+				2B3ED2961392851D0031D254 /* Frameworks */,
+				2B3ED2971392851D0031D254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sukey_mapView;
+			productName = sukey_mapView;
+			productReference = 2B3ED2991392851D0031D254 /* sukey_mapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B3ED2901392851C0031D254 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Lateral;
+			};
+			buildConfigurationList = 2B3ED2931392851C0031D254 /* Build configuration list for PBXProject "sukey_mapView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B3ED28E1392851C0031D254;
+			productRefGroup = 2B3ED29A1392851D0031D254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B3ED2981392851D0031D254 /* sukey_mapView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B3ED2971392851D0031D254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3ED2A81392851D0031D254 /* InfoPlist.strings in Resources */,
+				2B3ED2B11392851D0031D254 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B3ED2951392851D0031D254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3ED2AB1392851D0031D254 /* main.m in Sources */,
+				2B3ED2AE1392851D0031D254 /* sukey_mapViewAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B3ED2A61392851D0031D254 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B3ED2A71392851D0031D254 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B3ED2AF1392851D0031D254 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B3ED2B01392851D0031D254 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B3ED2B21392851D0031D254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B3ED2B31392851D0031D254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2B3ED2B51392851D0031D254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sukey_mapView/sukey_mapView-Prefix.pch";
+				INFOPLIST_FILE = "sukey_mapView/sukey_mapView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B3ED2B61392851D0031D254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sukey_mapView/sukey_mapView-Prefix.pch";
+				INFOPLIST_FILE = "sukey_mapView/sukey_mapView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B3ED2931392851C0031D254 /* Build configuration list for PBXProject "sukey_mapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3ED2B21392851D0031D254 /* Debug */,
+				2B3ED2B31392851D0031D254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3ED2B41392851D0031D254 /* Build configuration list for PBXNativeTarget "sukey_mapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3ED2B51392851D0031D254 /* Debug */,
+				2B3ED2B61392851D0031D254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B3ED2901392851C0031D254 /* Project object */;
+}
