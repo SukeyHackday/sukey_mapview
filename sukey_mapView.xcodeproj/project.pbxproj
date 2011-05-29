@@ -14,6 +14,12 @@
 		2B3ED2AB1392851D0031D254 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3ED2AA1392851D0031D254 /* main.m */; };
 		2B3ED2AE1392851D0031D254 /* sukey_mapViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3ED2AD1392851D0031D254 /* sukey_mapViewAppDelegate.m */; };
 		2B3ED2B11392851D0031D254 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B3ED2AF1392851D0031D254 /* MainWindow.xib */; };
+		2B3ED2BA1392A8AE0031D254 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3ED2B91392A8AE0031D254 /* MapViewController.m */; };
+		2B3ED2BC1392A9C60031D254 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3ED2BB1392A9C60031D254 /* CoreLocation.framework */; };
+		2B3ED2BE1392A9CF0031D254 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3ED2BD1392A9CF0031D254 /* MapKit.framework */; };
+		2BD2B9751392C05A0023E1EF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD2B9721392C05A0023E1EF /* background.png */; };
+		2BD2B9761392C05A0023E1EF /* speechbubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD2B9731392C05A0023E1EF /* speechbubble.png */; };
+		2BD2B9771392C05A0023E1EF /* sukeybutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD2B9741392C05A0023E1EF /* sukeybutton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +27,20 @@
 		2B3ED29D1392851D0031D254 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B3ED29F1392851D0031D254 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B3ED2A11392851D0031D254 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2B3ED2A51392851D0031D254 /* sukey_mapView-Info.plist */ = {isa = PBXFileReference; path = "sukey_mapView-Info.plist"; sourceTree = "<group>"; };
+		2B3ED2A51392851D0031D254 /* sukey_mapView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sukey_mapView-Info.plist"; sourceTree = "<group>"; };
 		2B3ED2A71392851D0031D254 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2B3ED2A91392851D0031D254 /* sukey_mapView-Prefix.pch */ = {isa = PBXFileReference; path = "sukey_mapView-Prefix.pch"; sourceTree = "<group>"; };
+		2B3ED2A91392851D0031D254 /* sukey_mapView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sukey_mapView-Prefix.pch"; sourceTree = "<group>"; };
 		2B3ED2AA1392851D0031D254 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2B3ED2AC1392851D0031D254 /* sukey_mapViewAppDelegate.h */ = {isa = PBXFileReference; path = sukey_mapViewAppDelegate.h; sourceTree = "<group>"; };
+		2B3ED2AC1392851D0031D254 /* sukey_mapViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sukey_mapViewAppDelegate.h; sourceTree = "<group>"; };
 		2B3ED2AD1392851D0031D254 /* sukey_mapViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sukey_mapViewAppDelegate.m; sourceTree = "<group>"; };
 		2B3ED2B01392851D0031D254 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2B3ED2B81392A8AE0031D254 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		2B3ED2B91392A8AE0031D254 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../../sukey/MapViewController.m; sourceTree = "<group>"; };
+		2B3ED2BB1392A9C60031D254 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2B3ED2BD1392A9CF0031D254 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2BD2B9721392C05A0023E1EF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		2BD2B9731392C05A0023E1EF /* speechbubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speechbubble.png; sourceTree = "<group>"; };
+		2BD2B9741392C05A0023E1EF /* sukeybutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sukeybutton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3ED2BE1392A9CF0031D254 /* MapKit.framework in Frameworks */,
+				2B3ED2BC1392A9C60031D254 /* CoreLocation.framework in Frameworks */,
 				2B3ED29E1392851D0031D254 /* UIKit.framework in Frameworks */,
 				2B3ED2A01392851D0031D254 /* Foundation.framework in Frameworks */,
 				2B3ED2A21392851D0031D254 /* CoreGraphics.framework in Frameworks */,
@@ -64,6 +79,8 @@
 		2B3ED29C1392851D0031D254 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2B3ED2BB1392A9C60031D254 /* CoreLocation.framework */,
+				2B3ED2BD1392A9CF0031D254 /* MapKit.framework */,
 				2B3ED29D1392851D0031D254 /* UIKit.framework */,
 				2B3ED29F1392851D0031D254 /* Foundation.framework */,
 				2B3ED2A11392851D0031D254 /* CoreGraphics.framework */,
@@ -74,6 +91,7 @@
 		2B3ED2A31392851D0031D254 /* sukey_mapView */ = {
 			isa = PBXGroup;
 			children = (
+				2B3ED2B71392883E0031D254 /* View Controllers */,
 				2B3ED2AC1392851D0031D254 /* sukey_mapViewAppDelegate.h */,
 				2B3ED2AD1392851D0031D254 /* sukey_mapViewAppDelegate.m */,
 				2B3ED2AF1392851D0031D254 /* MainWindow.xib */,
@@ -85,12 +103,32 @@
 		2B3ED2A41392851D0031D254 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2BD2B9701392C0330023E1EF /* Images */,
 				2B3ED2A51392851D0031D254 /* sukey_mapView-Info.plist */,
 				2B3ED2A61392851D0031D254 /* InfoPlist.strings */,
 				2B3ED2A91392851D0031D254 /* sukey_mapView-Prefix.pch */,
 				2B3ED2AA1392851D0031D254 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B3ED2B71392883E0031D254 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B3ED2B81392A8AE0031D254 /* MapViewController.h */,
+				2B3ED2B91392A8AE0031D254 /* MapViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2BD2B9701392C0330023E1EF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2BD2B9721392C05A0023E1EF /* background.png */,
+				2BD2B9731392C05A0023E1EF /* speechbubble.png */,
+				2BD2B9741392C05A0023E1EF /* sukeybutton.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +183,9 @@
 			files = (
 				2B3ED2A81392851D0031D254 /* InfoPlist.strings in Resources */,
 				2B3ED2B11392851D0031D254 /* MainWindow.xib in Resources */,
+				2BD2B9751392C05A0023E1EF /* background.png in Resources */,
+				2BD2B9761392C05A0023E1EF /* speechbubble.png in Resources */,
+				2BD2B9771392C05A0023E1EF /* sukeybutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +198,7 @@
 			files = (
 				2B3ED2AB1392851D0031D254 /* main.m in Sources */,
 				2B3ED2AE1392851D0031D254 /* sukey_mapViewAppDelegate.m in Sources */,
+				2B3ED2BA1392A8AE0031D254 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +303,7 @@
 				2B3ED2B61392851D0031D254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

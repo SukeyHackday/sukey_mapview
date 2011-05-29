@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MapViewController.h"
 
 @interface sukey_mapViewAppDelegate : NSObject <UIApplicationDelegate> {
-
+    
+    MapViewController *mv;
+    
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic,retain)MapViewController *mv;
 
 @end

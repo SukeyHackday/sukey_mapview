@@ -12,10 +12,12 @@
 
 
 @synthesize window=_window;
+@synthesize mv;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    mv = [[MapViewController alloc] init];
+    [self.window addSubview:mv.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
