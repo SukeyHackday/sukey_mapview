@@ -1,0 +1,1 @@
+These are test files to build the functionality for the mapView part of the overall Sukey iOS project. As such they are not overly well structured in terms of code re-use etc. However they exists to play with. As and when the code is fully formed they will be ported over to the Parent project which is the actual iOS application.
