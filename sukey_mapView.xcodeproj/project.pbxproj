@@ -20,6 +20,7 @@
 		2BD2B9751392C05A0023E1EF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD2B9721392C05A0023E1EF /* background.png */; };
 		2BD2B9761392C05A0023E1EF /* speechbubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD2B9731392C05A0023E1EF /* speechbubble.png */; };
 		2BD2B9771392C05A0023E1EF /* sukeybutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD2B9741392C05A0023E1EF /* sukeybutton.png */; };
+		2BD2B97B1392D1030023E1EF /* MapDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD2B97A1392D1030023E1EF /* MapDisplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		2BD2B9721392C05A0023E1EF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		2BD2B9731392C05A0023E1EF /* speechbubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speechbubble.png; sourceTree = "<group>"; };
 		2BD2B9741392C05A0023E1EF /* sukeybutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sukeybutton.png; sourceTree = "<group>"; };
+		2BD2B9791392D1030023E1EF /* MapDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDisplay.h; sourceTree = "<group>"; };
+		2BD2B97A1392D1030023E1EF /* MapDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDisplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,7 @@
 		2B3ED2A31392851D0031D254 /* sukey_mapView */ = {
 			isa = PBXGroup;
 			children = (
+				2BD2B9781392D0DA0023E1EF /* Mapping Classes */,
 				2B3ED2B71392883E0031D254 /* View Controllers */,
 				2B3ED2AC1392851D0031D254 /* sukey_mapViewAppDelegate.h */,
 				2B3ED2AD1392851D0031D254 /* sukey_mapViewAppDelegate.m */,
@@ -129,6 +133,15 @@
 				2BD2B9741392C05A0023E1EF /* sukeybutton.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		2BD2B9781392D0DA0023E1EF /* Mapping Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2BD2B9791392D1030023E1EF /* MapDisplay.h */,
+				2BD2B97A1392D1030023E1EF /* MapDisplay.m */,
+			);
+			name = "Mapping Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +212,7 @@
 				2B3ED2AB1392851D0031D254 /* main.m in Sources */,
 				2B3ED2AE1392851D0031D254 /* sukey_mapViewAppDelegate.m in Sources */,
 				2B3ED2BA1392A8AE0031D254 /* MapViewController.m in Sources */,
+				2BD2B97B1392D1030023E1EF /* MapDisplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

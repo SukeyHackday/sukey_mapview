@@ -10,12 +10,14 @@
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 
+@class MapDisplay;
 
-@interface MapViewController : UIViewController {
+@interface MapViewController : UIViewController <MKMapViewDelegate>{
     
     UIView *mainView;
     MKMapView *mapView;
-    
+    UIImageView *iv;
+
 }
 
 @end
