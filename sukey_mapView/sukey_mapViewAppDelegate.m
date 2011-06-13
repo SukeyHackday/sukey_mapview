@@ -7,6 +7,7 @@
 //
 
 #import "sukey_mapViewAppDelegate.h"
+#import "MapViewController.h"
 
 @implementation sukey_mapViewAppDelegate
 

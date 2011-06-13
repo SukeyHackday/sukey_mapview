@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MapViewController.h"
+
+
+@class MapViewController;
 
 @interface sukey_mapViewAppDelegate : NSObject <UIApplicationDelegate> {
     
