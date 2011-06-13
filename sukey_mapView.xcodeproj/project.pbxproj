@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1B47E113A6764100E82593 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47D213A6764100E82593 /* background.png */; };
+		2B1B47E213A6764100E82593 /* compassbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47D313A6764100E82593 /* compassbg.png */; };
+		2B1B47E313A6764100E82593 /* compasscenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47D413A6764100E82593 /* compasscenter.png */; };
+		2B1B47E413A6764100E82593 /* compassgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47D513A6764100E82593 /* compassgreen.png */; };
+		2B1B47E513A6764100E82593 /* compassmask.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47D613A6764100E82593 /* compassmask.png */; };
+		2B1B47E613A6764100E82593 /* compassred.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47D713A6764100E82593 /* compassred.png */; };
+		2B1B47E713A6764100E82593 /* compassredsym.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47D813A6764100E82593 /* compassredsym.png */; };
+		2B1B47E813A6764100E82593 /* compassrose.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47D913A6764100E82593 /* compassrose.png */; };
+		2B1B47E913A6764100E82593 /* compassyellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47DA13A6764100E82593 /* compassyellow.png */; };
+		2B1B47EA13A6764100E82593 /* compassyellowsym.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47DB13A6764100E82593 /* compassyellowsym.png */; };
+		2B1B47EB13A6764100E82593 /* exclamationmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47DC13A6764100E82593 /* exclamationmark.png */; };
+		2B1B47EC13A6764100E82593 /* questionmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47DD13A6764100E82593 /* questionmark.png */; };
+		2B1B47ED13A6764100E82593 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47DE13A6764100E82593 /* README */; };
+		2B1B47EE13A6764100E82593 /* speechbubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47DF13A6764100E82593 /* speechbubble.png */; };
+		2B1B47EF13A6764100E82593 /* sukeybutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B47E013A6764100E82593 /* sukeybutton.png */; };
 		2B3ED29E1392851D0031D254 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3ED29D1392851D0031D254 /* UIKit.framework */; };
 		2B3ED2A01392851D0031D254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3ED29F1392851D0031D254 /* Foundation.framework */; };
 		2B3ED2A21392851D0031D254 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3ED2A11392851D0031D254 /* CoreGraphics.framework */; };
@@ -24,6 +39,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B1B47D213A6764100E82593 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		2B1B47D313A6764100E82593 /* compassbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassbg.png; sourceTree = "<group>"; };
+		2B1B47D413A6764100E82593 /* compasscenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compasscenter.png; sourceTree = "<group>"; };
+		2B1B47D513A6764100E82593 /* compassgreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassgreen.png; sourceTree = "<group>"; };
+		2B1B47D613A6764100E82593 /* compassmask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassmask.png; sourceTree = "<group>"; };
+		2B1B47D713A6764100E82593 /* compassred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassred.png; sourceTree = "<group>"; };
+		2B1B47D813A6764100E82593 /* compassredsym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassredsym.png; sourceTree = "<group>"; };
+		2B1B47D913A6764100E82593 /* compassrose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassrose.png; sourceTree = "<group>"; };
+		2B1B47DA13A6764100E82593 /* compassyellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassyellow.png; sourceTree = "<group>"; };
+		2B1B47DB13A6764100E82593 /* compassyellowsym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassyellowsym.png; sourceTree = "<group>"; };
+		2B1B47DC13A6764100E82593 /* exclamationmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclamationmark.png; sourceTree = "<group>"; };
+		2B1B47DD13A6764100E82593 /* questionmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = questionmark.png; sourceTree = "<group>"; };
+		2B1B47DE13A6764100E82593 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		2B1B47DF13A6764100E82593 /* speechbubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speechbubble.png; sourceTree = "<group>"; };
+		2B1B47E013A6764100E82593 /* sukeybutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sukeybutton.png; sourceTree = "<group>"; };
 		2B3ED2991392851D0031D254 /* sukey_mapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sukey_mapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3ED29D1392851D0031D254 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B3ED29F1392851D0031D254 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,6 +92,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B1B47D113A6764100E82593 /* app_images */ = {
+			isa = PBXGroup;
+			children = (
+				2B1B47D213A6764100E82593 /* background.png */,
+				2B1B47D313A6764100E82593 /* compassbg.png */,
+				2B1B47D413A6764100E82593 /* compasscenter.png */,
+				2B1B47D513A6764100E82593 /* compassgreen.png */,
+				2B1B47D613A6764100E82593 /* compassmask.png */,
+				2B1B47D713A6764100E82593 /* compassred.png */,
+				2B1B47D813A6764100E82593 /* compassredsym.png */,
+				2B1B47D913A6764100E82593 /* compassrose.png */,
+				2B1B47DA13A6764100E82593 /* compassyellow.png */,
+				2B1B47DB13A6764100E82593 /* compassyellowsym.png */,
+				2B1B47DC13A6764100E82593 /* exclamationmark.png */,
+				2B1B47DD13A6764100E82593 /* questionmark.png */,
+				2B1B47DE13A6764100E82593 /* README */,
+				2B1B47DF13A6764100E82593 /* speechbubble.png */,
+				2B1B47E013A6764100E82593 /* sukeybutton.png */,
+			);
+			path = app_images;
+			sourceTree = "<group>";
+		};
 		2B3ED28E1392851C0031D254 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +180,7 @@
 		2BD2B9701392C0330023E1EF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2B1B47D113A6764100E82593 /* app_images */,
 				2BD2B9721392C05A0023E1EF /* background.png */,
 				2BD2B9731392C05A0023E1EF /* speechbubble.png */,
 				2BD2B9741392C05A0023E1EF /* sukeybutton.png */,
@@ -199,6 +252,21 @@
 				2BD2B9751392C05A0023E1EF /* background.png in Resources */,
 				2BD2B9761392C05A0023E1EF /* speechbubble.png in Resources */,
 				2BD2B9771392C05A0023E1EF /* sukeybutton.png in Resources */,
+				2B1B47E113A6764100E82593 /* background.png in Resources */,
+				2B1B47E213A6764100E82593 /* compassbg.png in Resources */,
+				2B1B47E313A6764100E82593 /* compasscenter.png in Resources */,
+				2B1B47E413A6764100E82593 /* compassgreen.png in Resources */,
+				2B1B47E513A6764100E82593 /* compassmask.png in Resources */,
+				2B1B47E613A6764100E82593 /* compassred.png in Resources */,
+				2B1B47E713A6764100E82593 /* compassredsym.png in Resources */,
+				2B1B47E813A6764100E82593 /* compassrose.png in Resources */,
+				2B1B47E913A6764100E82593 /* compassyellow.png in Resources */,
+				2B1B47EA13A6764100E82593 /* compassyellowsym.png in Resources */,
+				2B1B47EB13A6764100E82593 /* exclamationmark.png in Resources */,
+				2B1B47EC13A6764100E82593 /* questionmark.png in Resources */,
+				2B1B47ED13A6764100E82593 /* README in Resources */,
+				2B1B47EE13A6764100E82593 /* speechbubble.png in Resources */,
+				2B1B47EF13A6764100E82593 /* sukeybutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
